@@ -2,12 +2,12 @@
  * Join truthy, non-duplicate argument values into a space-delimited string.
  *
  * @example
- * {% classnames
+ * classnames(
  *   "block",
  *   "block__element",
- *   "block__element--modifier" if false,
- *   "block"
- * %}
+ *   false && "block__element--modifier",
+ *   "block",
+ * )
  * // returns "block block__element"
  * @param {string[]} args
  * @return {string}

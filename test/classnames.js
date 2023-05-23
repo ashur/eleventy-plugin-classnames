@@ -15,9 +15,8 @@ describe( "classnames", () =>
 			"block",
 			undefined,
 			"block__element",
-			false,
-			"block__element--modifier",
-		), "block block__element block__element--modifier" );
+			false && "block__element--modifier",
+		), "block block__element" );
 	} );
 
 	it( "should return string of unique values", () =>
