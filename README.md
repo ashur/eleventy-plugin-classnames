@@ -1,6 +1,6 @@
 # eleventy-plugin-classnames
 
-An [Eleventy](https://11ty.dev/) plugin — available as a filter and a shortcode — for joining truthy, non-duplicate argument values into a space-delimited string, suitable for use in an HTML element's `class` attribute:
+An [Eleventy](https://11ty.dev/) plugin — available as a filter and a shortcode — for joining truthy, deduplicated values into a space-delimited string, suitable for use in an HTML element's `class` attribute:
 
 ```javascript
 classnames(

@@ -1,7 +1,7 @@
 {
   "name": "@aaashur/eleventy-plugin-classnames",
   "version": "0.1.0",
-  "description": "An Eleventy shortcode for joining truthy, non-duplicate argument values into a space-delimited string",
+  "description": "An Eleventy plugin for joining truthy, deduplicated values into a space-delimited string",
   "main": ".eleventy.js",
   "scripts": {
     "lint": "eslint '.eleventy.js' 'src/**/*.js' 'test/**/*.js'",
