@@ -1,6 +1,6 @@
 {
   "name": "@aaashur/eleventy-plugin-classnames",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An Eleventy plugin for joining truthy, deduplicated values into a space-delimited string",
   "main": ".eleventy.js",
   "scripts": {
