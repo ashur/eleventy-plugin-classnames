@@ -6,5 +6,6 @@ const classnames = require( "./src/classnames" );
  */
 module.exports = ( eleventyConfig ) =>
 {
+	eleventyConfig.addFilter( "classnames", classnames );
 	eleventyConfig.addShortcode( "classnames", classnames );
 };
